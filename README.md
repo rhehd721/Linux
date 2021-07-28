@@ -1,4 +1,4 @@
-# Bit_Linux
+# Linux
 
 ## Linux 명령어 정리
 
@@ -75,3 +75,5 @@
 32. sudo reboot == 재부팅
 
 33. sudo halt -p == 본체전원까지 종료
+
+34. ls | grep '.html' | cut -d . -f 1 | while read line; do mv $line.html $line.asp; done 일괄 파일 확장자 
